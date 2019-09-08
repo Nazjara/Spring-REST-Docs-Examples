@@ -1,0 +1,72 @@
+= Brewery Order Service Docs
+Nazar Lipkovskyy;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST Docs with JUnit 5.
+
+`BeerOrderControllerTest` makes a call to a very simple service and produces three
+documentation snippets.
+
+`Get beer`
+
+include::{snippets}/v1/beer/get/curl-request.adoc[]
+
+HTTP request example:
+
+include::{snippets}/v1/beer/get/http-request.adoc[]
+
+Path Parameters:
+
+include::{snippets}/v1/beer/get/path-parameters.adoc[]
+
+HTTP response example:
+
+include::{snippets}/v1/beer/get/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/v1/beer/get/response-body.adoc[]
+
+Response Fields:
+
+include::{snippets}/v1/beer/get/response-fields.adoc[]
+
+
+`Create beer`
+
+include::{snippets}/v1/beer/create/curl-request.adoc[]
+
+Request Fields:
+
+include::{snippets}/v1/beer/create/request-fields.adoc[]
+
+HTTP request example:
+
+include::{snippets}/v1/beer/create/http-request.adoc[]
+
+HTTP response example:
+
+include::{snippets}/v1/beer/create/http-response.adoc[]
+
+
+`Update beer`
+
+include::{snippets}/v1/beer/update/curl-request.adoc[]
+
+Request Fields:
+
+include::{snippets}/v1/beer/update/request-fields.adoc[]
+
+Path Parameters:
+
+include::{snippets}/v1/beer/update/path-parameters.adoc[]
+
+HTTP request example:
+
+include::{snippets}/v1/beer/update/http-request.adoc[]
+
+HTTP response example:
+
+include::{snippets}/v1/beer/update/http-response.adoc[]
